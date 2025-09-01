@@ -31,7 +31,7 @@ model = load_model('modeloproyecto.joblib')
 with st.sidebar:
     st.header("⚙️ Parámetros de Entrada")
     st.markdown("""
-    Ajusta los deslizadores para que coincidan con los parámetros operativos de la columna de destilación.
+    Ajusta los deslizadores para que coincidan con los parámetros operativos del proceso de flotación.
     """)
 
     # Slider para el caudal de alimentación
