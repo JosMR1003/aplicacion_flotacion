@@ -109,8 +109,8 @@ if model is not None:
             prediction_value = model.predict(df_input)
             st.subheader("📈 Resultado de la Predicción")
             # Mostramos el resultado en un cuadro de éxito, formateado a dos decimales.
-            st.success(f"**Rendimiento Predicho:** `{prediction_value[0]:.2f}%`")
-            st.info("Este valor representa el porcentaje estimado del producto deseado que se recuperará.")
+            st.success(f"**Porcentaje de Sílica Concentrada predicho:** `{prediction_value[0]:.2f}%`")
+            st.info("Este valor representa el porcentaje estimado del porcentaje de sílica concentrada que se obtendrá en el proceso de flotación.")
         except Exception as e:
             st.error(f"Ocurrió un error durante la predicción: {e}")
 else:
