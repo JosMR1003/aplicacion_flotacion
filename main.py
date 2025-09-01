@@ -71,6 +71,8 @@ st.markdown("""
 **Esta herramienta puede ayudar a los ingenieros de procesos y operadores a:**
 - **Optimizar** las condiciones de operación para obtener el máximo rendimiento.
 - **Predecir** el impacto de los cambios en las variables más significativas: 
+
+
 Porcentaje de Hierro Concentrado (%),
 
 
