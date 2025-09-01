@@ -70,9 +70,11 @@ st.markdown("""
 ¡Bienvenido! Esta aplicación utiliza un modelo de machine learning de Boosted Tree para predecir el porcentaje de Silica Concentrada en un proceso de Flotación
 **Esta herramienta puede ayudar a los ingenieros de procesos y operadores a:**
 - **Optimizar** las condiciones de operación para obtener el máximo rendimiento.
-- **Predecir** el impacto de los cambios en las variables más significativas: Porcentaje de Hierro Concentrado (%), A continuación se describe brevemente el impacto de cada variable
-Flujo de Aire en la Columna de Flotación 1, 
+- **Predecir** el impacto de los cambios en las variables más significativas: 
+Porcentaje de Hierro Concentrado (%)
+Flujo de Aire en la Columna de Flotación 1
 Flujo de Amina.
+
 En el caso de la primera variable, al presentar un comportamiento inverso con el porcentaje de Sílica, resulta imperativo contemplarla en esta herramienta predictiva,
 Para el caso del flujo de aire, este se asocia a procesos de transporte de masa que fomentan un aumento o disminución de la concentración de sílica,
 Finalmente, el flujo de amina presenta una adsorción en la superficie de la sílice, generando un comportamiento hidrofóbico que influye en el transporte de materia.
