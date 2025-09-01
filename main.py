@@ -73,13 +73,13 @@ st.markdown("""
 - **Predecir** el impacto de los cambios en las variables más significativas: 
 
 
-Porcentaje de Hierro Concentrado (%),
+**Porcentaje de Hierro Concentrado (%)**,
 
 
-Flujo de Aire en la Columna de Flotación 1,
+**Flujo de Aire en la Columna de Flotación 1**,
 
 
-Flujo de Amina.
+**Flujo de Amina**.
 
 En el caso de la primera variable, al presentar un comportamiento inverso con el porcentaje de Sílica, resulta imperativo contemplarla en esta herramienta predictiva.
 
