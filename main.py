@@ -34,7 +34,7 @@ with st.sidebar:
     Ajusta los deslizadores para que coincidan con los parámetros operativos del proceso de flotación.
     """)
 
-    # Slider para el caudal de alimentación
+    # Slider para el flujo de Amina
     AmineFlow = st.slider(
         label='Flujo de Amina (kg/min)',
         min_value=241,
@@ -44,7 +44,7 @@ with st.sidebar:
     )
     st.caption("Representa el flujo de amina en el proceso.")
 
-    # Slider para la temperatura
+    # Slider para el flujo de Aire d ela columna de flotación 01
     AirFlow = st.slider(
         label='Flujo de Aire Columna 1(kg/min)',
         min_value=175,
@@ -54,7 +54,7 @@ with st.sidebar:
     )
     st.caption("Importante para el proceso de transferencia de masa (burbujeo)")
 
-    # Slider para la diferencia de presión
+    # Slider para la concentración de hierro
     Iron = st.slider(
         label='Hierro Concentrado (%)',
         min_value=62,
